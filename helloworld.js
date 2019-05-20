@@ -5,7 +5,7 @@ http.createServer(function (request, response) {
     // Content Type: text/plain
     response.writeHead(200, {'Content-Type': 'text/plain'})
     // Send the response body as "Hello World" 
-    response.end('Hello World\n')
+    response.end('Hello World. Nice to see you\n')
 }).listen(3000)
 // Console will print the message 
 console.log('Server running')

@@ -14,6 +14,6 @@ describe('main page', function() {
 
   it('should say hello world', function() {
     assert.ok(this.browser.success)
-    assert.equal(this.browser.text(), "Hello World")
+    assert.equal(this.browser.text(), "Hello World. Nice to see you")
   })
 })
